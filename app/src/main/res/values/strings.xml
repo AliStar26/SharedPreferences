@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="username">Введите ваше имя</string>
+    <string name="saveButton">Сохранить имя</string>
+</resources>

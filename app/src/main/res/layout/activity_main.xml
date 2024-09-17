@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="18dp"
+    >
+
+  <EditText
+      android:id="@+id/editTextUserName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Введите ваше имя" />
+
+  <EditText
+      android:id="@+id/editTextBirthdate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Введите дату рождения" />
+
+  <EditText
+      android:id="@+id/editTextCity"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Введите город" />
+
+  <EditText
+      android:id="@+id/editTextPhotoUrl"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Введите URL фотографии" />
+
+  <Button
+      android:id="@+id/buttonSaveData"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Сохранить данные"
+      android:padding="15dp" />
+
+  <TextView
+      android:id="@+id/tvUsername"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:textColor="#EF5858"
+      android:paddingTop="20dp" />
+
+
+</LinearLayout>
